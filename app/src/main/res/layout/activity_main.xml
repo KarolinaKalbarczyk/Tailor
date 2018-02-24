@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tailor.MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/obrazek"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tailor" />
+
+        <TextView
+            style="@style/Tailor"
+            android:text="Custom made clothing"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                style="@style/ImageButton"
+                android:layout_marginTop="340dp"
+                android:onClick="number"
+                android:background="@drawable/ic_phone_black_24dp" />
+
+            <TextView
+                style="@style/TextButton"
+                android:layout_marginTop="345dp"
+                android:text="@string/phone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                style="@style/ImageButton"
+                android:layout_marginTop="400dp"
+                android:onClick="www"
+                android:background="@drawable/ic_open_in_browser_black_24dp"/>
+
+            <TextView
+                style="@style/TextButton"
+                android:layout_marginTop="405dp"
+                android:text="@string/web" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                style="@style/ImageButton"
+                android:layout_marginTop="460dp"
+                android:onClick="email"
+                android:background="@drawable/ic_mail_black_24dp" />
+
+            <TextView
+                style="@style/TextButton"
+                android:layout_marginTop="465dp"
+                android:text="@string/email" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                style="@style/ImageButton"
+                android:layout_marginTop="520dp"
+                android:onClick="adres"
+                android:background="@drawable/ic_location_on_black_24dp" />
+
+            <Button
+                style="@style/AdressButton"
+                android:onClick="adres"
+                android:layout_marginTop="507dp"
+                android:text="@string/adres" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

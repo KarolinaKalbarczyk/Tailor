@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tailor</string>
+    <string name="adres"> <u>Aleje Jerozolimskie 123, Warsaw</u> </string>
+    <string name="email">tailor@gmail.com</string>
+    <string name="web">www.tailor.pl</string>
+    <string name="phone">+48 506 453 870</string>
+</resources>
