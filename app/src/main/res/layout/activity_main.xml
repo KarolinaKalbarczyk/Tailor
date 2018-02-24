@@ -15,13 +15,13 @@
         <ImageView
             android:id="@+id/obrazek"
             android:layout_width="wrap_content"
-            android:layout_height="250dp"
+            android:layout_height="@dimen/Image_layout_height"
             android:scaleType="centerCrop"
             android:src="@drawable/tailor" />
 
         <TextView
             style="@style/Tailor"
-            android:text="Custom made clothing"/>
+            android:text="@string/custom_made_clothing"/>
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -29,13 +29,13 @@
 
             <Button
                 style="@style/ImageButton"
-                android:layout_marginTop="340dp"
+                android:layout_marginTop="@dimen/ButtonPhone_marginTop"
                 android:onClick="number"
                 android:background="@drawable/ic_phone_black_24dp" />
 
             <TextView
                 style="@style/TextButton"
-                android:layout_marginTop="345dp"
+                android:layout_marginTop="@dimen/TextPhone_marginTop"
                 android:text="@string/phone" />
 
         </RelativeLayout>
@@ -46,13 +46,13 @@
 
             <Button
                 style="@style/ImageButton"
-                android:layout_marginTop="400dp"
+                android:layout_marginTop="@dimen/ButtonWeb_marginTop"
                 android:onClick="www"
                 android:background="@drawable/ic_open_in_browser_black_24dp"/>
 
             <TextView
                 style="@style/TextButton"
-                android:layout_marginTop="405dp"
+                android:layout_marginTop="@dimen/TextWeb_marginTop"
                 android:text="@string/web" />
 
         </RelativeLayout>
@@ -63,13 +63,13 @@
 
             <Button
                 style="@style/ImageButton"
-                android:layout_marginTop="460dp"
+                android:layout_marginTop="@dimen/ButtonMail_marginTop"
                 android:onClick="email"
                 android:background="@drawable/ic_mail_black_24dp" />
 
             <TextView
                 style="@style/TextButton"
-                android:layout_marginTop="465dp"
+                android:layout_marginTop="@dimen/TextMail_marginTop"
                 android:text="@string/email" />
 
         </RelativeLayout>
@@ -80,14 +80,14 @@
 
             <Button
                 style="@style/ImageButton"
-                android:layout_marginTop="520dp"
+                android:layout_marginTop="@dimen/ButtonAdres_marginTop"
                 android:onClick="adres"
                 android:background="@drawable/ic_location_on_black_24dp" />
 
             <Button
                 style="@style/AdressButton"
                 android:onClick="adres"
-                android:layout_marginTop="507dp"
+                android:layout_marginTop="@dimen/TextAdres_marginTop"
                 android:text="@string/adres" />
 
         </RelativeLayout>

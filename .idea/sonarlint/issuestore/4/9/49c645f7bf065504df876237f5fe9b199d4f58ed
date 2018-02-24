@@ -1,0 +1,5 @@
+
+Dsquid:S1481"*Remove this unused "phone" local variable.(±¸±Œúÿÿÿÿ
+Ssquid:S1854"9Remove this useless assignment to local variable "phone".(±¸±Œúÿÿÿÿ
+[squid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ
+]squid:UselessImportCheck"6Remove this unused import 'android.text.util.Linkify'.(ƒÓÞ¢ýÿÿÿÿ

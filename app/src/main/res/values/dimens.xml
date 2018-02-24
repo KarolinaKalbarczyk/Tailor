@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Image_layout_height">250dp</dimen>
+    <dimen name="ButtonPhone_marginTop">340dp</dimen>
+    <dimen name="TextPhone_marginTop">345dp</dimen>
+    <dimen name="ButtonWeb_marginTop">400dp</dimen>
+    <dimen name="TextWeb_marginTop">405dp</dimen>
+    <dimen name="ButtonMail_marginTop">460dp</dimen>
+    <dimen name="TextMail_marginTop">465dp</dimen>
+    <dimen name="ButtonAdres_marginTop">520dp</dimen>
+    <dimen name="TextAdres_marginTop">507dp</dimen>
+
+    <dimen name="Adres_Textsize">18sp</dimen>
+    <dimen name="Adres_marginLeft">70dp</dimen>
+
+    <dimen name="Text_Textsize">18sp</dimen>
+    <dimen name="Text_marginLeft">70dp</dimen>
+
+    <dimen name="Tailor_Textsize">33sp</dimen>
+    <dimen name="Tailor_marginLeft">20dp</dimen>
+    <dimen name="Tailor_marginTop">270dp</dimen>
+
+    <dimen name="ImageButton_marginLeft">20dp</dimen>
+    <dimen name="ImageButton_layout_width">30dp</dimen>
+    <dimen name="ImageButton_layout_height">30dp</dimen>
+
+
+</resources>
